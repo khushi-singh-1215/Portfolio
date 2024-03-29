@@ -1,0 +1,88 @@
+.secondsection{
+    margin: auto;
+    max-width: 80vw ;
+    height: 80vh;
+}
+
+.secondsection .top{
+    margin: 20px;
+    text-align: center; 
+}
+
+
+/* .aboutme {
+    display: flex;
+    justify-content:space-around;
+    max-width: 1200px;
+    margin-top: 35px;
+    margin: 20px , 20px;
+} */
+
+.education, .skills {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.degree, .intermediate {
+    margin-bottom: 20px;
+}
+
+/* .education h1 {
+    font-size: 24px;
+} */
+
+/* .degree h2 {
+   font-size: 18px; 
+   margin-bottom: 5px;
+} */
+
+.education {
+    margin-bottom: 10px;
+}
+
+.rightside {
+    margin-top: 10px;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.rightside1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul {
+   padding-left: 20px; 
+}
+li{
+    margin-bottom: 10px;
+}
+
+.date {
+    float: right;
+}
+
+/* .rightside1{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+} */
+
+.one, .two{
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.leftside{
+    width: 40%;
+}
+
+.spaced {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

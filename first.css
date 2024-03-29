@@ -1,0 +1,33 @@
+.left{
+    font-size: 1.5rem;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.firstsection > div{
+    width: 30%;
+    /* margin: 4%;
+    height: 60%; */
+}
+
+.leftsection{
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    /* margin: 35px 0; */
+}
+
+.rightsection img{
+    width: 100%;
+    margin: 35px 0;
+}
+
+.purple{
+    color: #30283f;
+}

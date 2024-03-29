@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="first.css">
+    <link rel="stylesheet" type="text/css" href="second.css">
+    <link rel="stylesheet" type="text/css" href="fourth.css" />
+    <link rel="stylesheet" type="text/css" href="third.css" />
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: linear-gradient(to right,#8a5082, #6f5f90);
+            color:white;
+            overflow-x: visible;
+            padding-top: 50px;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: #30283f;
+            position: fixed; 
+            top: 0; 
+            width: 100%;
+            z-index: 1; 
+            border-radius: 1%;    
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li{
+            list-style: none;
+             margin: 0 25px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a :hover{
+            color: lavender;
+            font-size: 1.02rem;
+        }
+
+        main hr{
+            border: 0px;
+            background-image: linear-gradient(to right,#8a5082, #6f5f90);
+            height: 1.2px;
+            margin: 80px 84px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Khushi</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#1">Home</a></li>
+                    <li><a href="#2">About</a></li>
+                    <li><a href="#3">Portfolio</a></li>
+                    <li><a href="#4">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <a name="1"><hr></a>
+        <section class="firstsection">
+            
+            <div class="leftsection">
+                
+                Hi, My name is <span class="purple">Khushi</span>
+                <div>and I'm a passionate</div>
+                <div>Web Developer</div>
+            </div>
+            <div class="rightsection">
+                <img src="profile.jpeg">
+            </div>
+        </section>
+
+        <section class="secondsection">   
+            <a name="2"><hr></a>
+            <h1 style="font-size: 45px;">About Me</h1>
+            <!-- <h1 style="font-size: 45px;">About Me</h1> -->
+            <div class="top">
+                <p>I’m B.Tech (IT) third year student aiming to find an exciting and 
+                    challenging opportunity in IT industry, in company which will 
+                    motivate me to improve my skills and dive me to do my best.</p>
+            </div>
+            <div class="aboutme">
+                <div class="leftside">
+                    <div class="education">
+                        <h1 class="spaced">EDUCATION</h1>
+                        <div class="degree">
+                            <h3>B.Tech (Information Technology)</h3>
+                            <p>Banasthali Vidyapith <span class="date">07-2021-Present</span></p>
+                            <p>II nd year - CGPA-8.75.</p>
+                        </div>
+                        <div class="intermediate">
+                            <h3>Intermediate</h3>
+                            <p>Army Public School, Bikaner <span class="date">05-2021</span></p>
+                            <ul>
+                                <li>10th - 92.89%</li>
+                                <li>12th - 87.8%</li>
+                            </ul>
+                        </div>
+                    </div>   
+                </div>
+
+                <div class="rightside">
+                    <h1 class="spaced">SKILLS</h1>
+                    <div class="rightside1">
+                        <div class="one">
+                            <ul>
+                                <li>C</li>
+                                <li>C++</li>
+                                <li>Python</li>
+                                <li>Java</li>
+                                <li>Flutter</li>
+                                <li>DBMS</li>
+                            </ul>
+                        </div>
+                        <div class="two">
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>Android Studio</li>
+                                <li>Figma</li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="three">
+                    <h1 class="spaced">CO-CURRICULAR </h1>
+                    <ul>
+                        <li>NCC cadet</li>
+                        <li>Basketball</li>
+                        <li>Horse Ridding</li>  
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+         <!-- portfolio -->
+         <div class="thirdsection"> 
+            <a name="3"><hr></a>
+            <h1 style="font-size: 50px; margin-left: 75px; ">Projects</h1>
+            <div id="event-container"></div>
+            <script src="portfolio.js"></script>
+         </div>
+    
+        <hr>
+
+        <!-- contact us -->
+        <div class="container">
+            <img src="img/shape.png" class="square" alt="" />
+            <div class="form">
+              <div class="contact-info">
+                <a name="4"><h3 class="title">Let's get in touch</h3></a>
+                <p class="text">
+                    I’m B.Tech (IT) third year student aiming to find an exciting and 
+                    challenging opportunity in IT industry, in company which will 
+                    motivate me to improve my skills and dive me to do my best.
+                </p>
+                <div class="info">
+                  <div class="information">
+                    <img src="img/location.png" class="icon" alt="" />
+                    <p>Banasthali Vidyapeeth</p>
+                  </div>
+                  <div class="information">
+                    <img src="img/email.png" class="icon" alt="" />
+                    <p>singhkushi333@gmail.com</p>
+                  </div>
+                  <div class="information">
+                    <img src="img/phone.png" class="icon" alt="" />
+                    <p>123-456-789</p>
+                  </div>
+                </div>  
+              </div>
+
+              <div class="contact-form">
+                <form action="index.html" autocomplete="off">
+                    <!-- Your other form fields -->
+                    <h3 class="title">Contact us</h3>
+                    <div class="input-container">
+                        <input type="text" name="name" class="input" />
+                        <label for="">Username</label>
+                        <span>Username</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="email" name="email" class="input" id="email" />
+                        <label for="email">Email</label>
+                        <span>Email</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="tel" name="phone" class="input" id="phone" />
+                        <label for="phone">Phone</label>
+                        <span>Phone</span>
+                    </div>
+                    <div class="input-container textarea">
+                        <textarea name="message" class="input"></textarea>
+                        <label for="">Message</label>
+                        <span>Message</span>
+                    </div>
+                    <input type="submit" value="Send" class="btn" />
+                </form>
+            
+                <script>
+                    const emailInput = document.getElementById('email');
+                    const phoneInput = document.getElementById('phone');
+            
+                    // Email validation
+                    emailInput.addEventListener('input', () => {
+                        const emailValue = emailInput.value.trim();
+                        const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+            
+                        if (!emailRegex.test(emailValue)) {
+                            emailInput.setCustomValidity('Please enter a valid email address');
+                        } else {
+                            emailInput.setCustomValidity('');
+                        }
+                    });
+            
+                    // Phone number validation
+                    phoneInput.addEventListener('input', () => {
+                        const phoneValue = phoneInput.value.trim();
+                        const phoneRegex = /^[1-9]{1}[0-9]{9}$/; 
+            
+                        if (!phoneRegex.test(phoneValue)) {
+                            phoneInput.setCustomValidity('Please enter a valid 10-digit phone number');
+                        } else {
+                            phoneInput.setCustomValidity('');
+                        }
+                    });
+
+                    const inputs = document.querySelectorAll(".input");
+
+                    function focusFunc() {
+                        let parent = this.parentNode;
+                        parent.classList.add("focus");
+                    }
+
+                    function blurFunc() {
+                        let parent = this.parentNode;
+                        if (this.value == "") {
+                            parent.classList.remove("focus");
+                        }
+                    }
+
+                    inputs.forEach((input) => {
+                    input.addEventListener("focus", focusFunc);
+                    input.addEventListener("blur", blurFunc);
+                    });
+                </script>
+              </div>
+            </div>
+        </div>
+        <hr>
+    </main>
+</body>
+</html>
